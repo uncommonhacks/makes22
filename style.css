@@ -55,6 +55,7 @@ a {
 }
 .scheduleinfo {
   margin-bottom: 5px;
+  line-height: 1.5;
 }
 .clickable_button {
   width: 278px;
@@ -90,6 +91,7 @@ a {
 }
 #about {
   background-color: #172120;
+  line-height: 1.3;
 }
 #faq {
   background-color: #222028;
@@ -271,4 +273,29 @@ a {
   #sponsor-us {
     margin-top: 100px;
   }
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  color: white;
+  cursor: pointer;
+  padding: 18px 0px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  background-color: #222028;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: #44414c;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  background-color: #222028;
+  display: none;
+  overflow: hidden;
 }
