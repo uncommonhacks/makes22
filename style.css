@@ -7,6 +7,7 @@ html, body {
 }
 a {
   text-decoration: none;
+  color:white
 }
 .email-link {
   color: white;
@@ -66,7 +67,12 @@ a {
   background: #F97C93;
   color: white;
   font-weight: 600;
+  border-radius: 30px;
   cursor: pointer;
+}
+.clickable_button:hover {
+  background: white;
+  color:  #F97C93;
 }
 .title {
   font-family: 'TruenoBold';
