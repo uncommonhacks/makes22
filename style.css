@@ -72,7 +72,7 @@ a {
 }
 .clickable_button:hover {
   background: white;
-  color:  #F97C93;
+  color: #F97C93;
 }
 .title {
   font-family: 'TruenoBold';
@@ -101,6 +101,9 @@ a {
 }
 #faq {
   background-color: #222028;
+}
+#about_UH {
+  background-color: darkslategrey;
 }
 .faqq {
   font-weight: 600;
