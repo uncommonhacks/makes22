@@ -332,9 +332,9 @@ a {
     */
     .carousel {
       position: relative;
-      max-width: 90%;
+      max-width: 80%;
       background-color: white;
-      margin-right: 10%;
+      margin-left: 10%;
     }
 
 
@@ -353,7 +353,7 @@ a {
       background-color: white;
     }
 
-      .previous-button-wrapper { left: 0; }
+      .previous-button-wrapper { left: px; }
       .next-button-wrapper { right: 0; }
 
     .is-control {
