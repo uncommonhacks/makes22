@@ -1,139 +1,397 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Uncommon Hacks</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="style.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-    <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet"> 
-    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/trueno" type="text/css">
-    <meta property="og:image" content="img/logo" />
-    <meta name="image" content="img/logo.svg">
-    <meta name="description" content="February 16-17, 2019 - A weekend-long celebration of technology where college students from everywhere come to Chicago to make fun, random, and innovative tech-related projects.">
-    <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
-    <script defer src="script.js"></script>
-  </head>
-  <body>
-    <div class="section section-left" id="intro">
-      <div class="left">
-        <img class="room" src="img/rooms/home.png"/>
-      </div>
-      <div class="right">
-        <div class="title">
-          Uncommon Makes
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <title>Uncommon Hacks</title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link href="style.css" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+      <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet"> 
+      <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/trueno" type="text/css">
+      <meta property="og:image" content="img/logo" />
+      <meta name="image" content="img/logo.svg">
+      <meta name="description" content="February 16-17, 2019 - A weekend-long celebration of technology where college students from everywhere come to Chicago to make fun, random, and innovative tech-related projects.">
+      <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+      <script defer src="script.js"></script>
+    </head>
+    <body>
+      <div class="section section-left" id="intro">
+        <div class="left">
+          <img class="room" src="img/rooms/home.png"/>
         </div>
-        <div class="title" id="year">
-          2022
-        </div>
-        <div class="otherinfo" id="subtitle">
-          <span class="subinfo">NOVEMBER 5</span>
-          <span class="subinfo">CRERAR LIBRARY, 3RD FLOOR</span>
-        </div>
-        <div id="register" class="clickable_button">
-          coming soon!
-        </div>
-      </div>
-    </div>
-    <div class="section section-right" id="about">
-      <div class="right nonintro">
-        <div class="title">
-          ABOUT
-        </div>
-        <div class="otherinfo">
-          <span class="subinfo subnonintro">
-            <p class="subinfo">INTRODUCTION</p>
-            Uncommon Hacks is known for organizing 24-hour programming competitions (hackathons) for the UChicago community. This fall, we're doing things differently: instead of judging projects based on their functionality, we will be looking at ~design~.
-            <p class="subinfo">HOW DOES IT WORK?</p>
-            Once you arrive at noon, we'll announce the theme for this year's Makes, and then quickly jump into two workshops that introduce you to two technologies that could help you make your project:
-            <ul>
-              <li style="margin-bottom: 10px;">
-              If you're looking to approach it more design-heavy, we will have a workshop for Figma, which is a very powerful tool for creating designs.
-              </li>
-              <li>
-              If you're looking to approach it more code-heavy, and have some background with web development, we will teach you React, which is a framework that simplifies the process of developing dynamic websites.
-              </li>
-            </ul>
-            <p class="subinfo">JUDGING</p>
-            After lunch and two hours of work, you will submit your prototypes/websites to us for judging, as well as present your work to other participants. And then we'll award prizes (TBD)!
-            <br/>
-            <br/>
-            An important thing to note here is that since Makes is a designathon, we won't be judging based on functionality, but rather on how cool/user-friendly your website would be if it were fully developed. So you're free to do stuff like tell us "hey, this part is not done yet but here is what I was thinking!"</span>
+        <div class="right">
+          <!-- this takes up 446px -->
+          <div id="tagline">
+            A short & sweet design competition
+          </div>
+          <div class="title">
+            Uncommon Makes
+          </div>
+          <div class="title" id="year">
+            2022
+          </div>
+          <div class="otherinfo" id="subtitle">
+            <span class="subinfo">NOVEMBER 5</span>
+            <span class="subinfo">CRERAR LIBRARY, 3RD FLOOR</span>
+              <br>
+              <br>
+              <a class="clickable_button" id="register" href="https://forms.gle/kmRyL6XZhvV9GygYA">rsvp</a>
+          </div>
         </div>
       </div>
-      <div class="left">
-        <img class="room" src="img/rooms/fantasy.png"/>
-      </div>
-    </div>
-    <div class="section section-left" id="faq">
-      <div class="left">
-        <img class="room" src="img/rooms/spaceclouds.png"/>
-      </div>
-      <div class="right nonintro">
-        <div class="title">
-          FAQ
+      <div class="section section-right" id="about">
+        <div class="right nonintro">
+          <div class="title">
+            ABOUT
+          </div>
+          <div class="otherinfo">
+            <span class="subinfo subnonintro">
+              <p class="subinfo">INTRODUCTION</p>
+              Uncommon Hacks is known for organizing 24-hour programming competitions (hackathons) for the UChicago community. This fall, we're doing things differently: instead of judging projects based on their functionality, we will be looking at ~design~.
+              <p class="subinfo">HOW DOES IT WORK?</p>
+              Once you arrive at noon, we'll announce the theme for this year's Makes, and then quickly jump into two workshops that introduce you to two technologies that could help you make your project:
+              <ul>
+                <li style="margin-bottom: 10px;">
+                If you're looking to approach it more design-heavy, we will have a workshop for Figma, which is a very powerful tool for creating designs.
+                </li>
+                <li>
+                If you're looking to approach it more code-heavy, and have some background with web development, we will teach you React, which is a framework that simplifies the process of developing dynamic websites.
+                </li>
+              </ul>
+              <p class="subinfo">JUDGING</p>
+              After lunch and two hours of work, you will submit your prototypes/websites to us for judging, as well as present your work to other participants. And then we'll award prizes (TBD)!
+              <br/>
+              <br/>
+              An important thing to note here is that since Makes is a designathon, we won't be judging based on functionality, but rather on how cool/user-friendly your website would be if it were fully developed. So you're free to do stuff like tell us "hey, this part is not done yet but here is what I was thinking!"</span>
+          </div>
         </div>
-        <div class="otherinfo">
-          <!-- <span class="subinfo subnonintro faqq"> -->
-            <button class="accordion" style="font-size: x-large;" >Is Makes only for undergraduate students?</button>
-            <div class="panel">
-              <p>No, any member of the UChicago community is welcome to come join us!</p>
-            </div>
-            
-            <button class="accordion" style="font-size: x-large;">Do I have to pay for anything?</button>
-            <div class="panel">
-              <p>Absolutely not!</p>
-            </div>
-            
-            <button class="accordion" style="font-size: x-large;">Wait, did you say prizes?</button>
-            <div class="panel">
-              <p>Yep! We will be handing out cash prizes to the top submissions.</p>
-            </div>
+        <div class="left">
+          <img class="room" src="img/rooms/fantasy.png"/>
+        </div>
+      </div>
+      <div class="section section-left" id="faq">
+        <div class="left">
+          <img class="room" src="img/rooms/spaceclouds.png"/>
+        </div>
+        <div class="right nonintro">
+          <div class="title">
+            FAQ
+          </div>
+          <div class="otherinfo">
+            <!-- <span class="subinfo subnonintro faqq"> -->
+              <button class="accordion" style="font-size: 1.3em; padding-left:5%" >Is Makes only for undergraduate students? <div class="iconbox"> <ion-icon name="caret-down-outline"></ion-icon></div></button> 
+              <div class="panel">
+                <p style = "padding-left:5%">No, any member of the UChicago community is welcome to come join us!</p>
+              </div>
+              
+              <button class="accordion" style="font-size: 1.3em; padding-left:5%">Do I have to pay for anything? <div class="iconbox"><ion-icon name="caret-down-outline"></ion-icon> </div></button>
+              <div class="panel">
+                <p style = "padding-left:5%">Absolutely not!</p>
+              </div>
+              
+              <button class="accordion" style="font-size: 1.3em; padding-left:5%">Wait, did you say prizes? <div class="iconbox"><ion-icon name="caret-down-outline"></ion-icon> </div></button>
+              <div class="panel">
+                <p style = "padding-left:5%">Yep! We will be handing out cash prizes to the top submissions.</p>
+              </div>
 
-            <button class="accordion" style="font-size: x-large;">What should I bring?</button>
-            <div class="panel">
-              <p>A laptop will suffice 💻</p>
-            </div>
+              <button class="accordion" style="font-size: 1.3em; padding-left:5%">What should I bring? <div class="iconbox"><ion-icon name="caret-down-outline"></ion-icon></div> </button>
+              <div class="panel">
+                <p style = "padding-left:5%">A laptop will suffice 💻</p>
+              </div>
 
-            <button class="accordion" style="font-size: x-large;">Can I come for part of the event?</button>
-            <div class="panel">
-              <p>Yes, but you need to check-in and be present at the project showcase in order to be eligible to get a prize!</p>
+              <button class="accordion" style="font-size: 1.3em; padding-left:5%">Can I come for part of the event? <div class="iconbox"><ion-icon name="caret-down-outline"></ion-icon></div></button>
+              <div class="panel">
+                <p style = "padding-left:5%">Yes, but you need to check-in and be present at the project showcase in order to be eligible to get a prize!</p> 
+              </div>
+            <!-- </span> -->
+          </div>
+        </div>
+      </div>
+      <div class="section section-right" style="background-color: #484848;">
+        <div class="right nonintro">
+          <div class="title">
+            SCHEDULE
+          </div>
+          <div class="otherinfo">
+            <span class="subinfo subnonintro"><strong>November 5th, 2022</strong></span>
+            <span class="subinfo subnonintro scheduleinfo" style="font-size: 1.3em;">
+              12:00 check-in, opening ceremony
+              </br>
+              12:15 workshop: prototyping with Figma
+              </br>
+              12:15 workshop: dynamic websites with React
+              </br>
+              1:30 lunch
+              </br>
+              2:00-4:00 work time
+              </br>
+              3:00 talk with Google software engineer
+              </br>
+              4:00 judging, project showcase
+              </br>
+              4:45 closing ceremony and prize giveaway
+              </br>
+              5:00 dinner, talk with Microsoft project manager
+              </span>
+          </div>
+        </div>
+        <div class="left" id="garden">
+          <img class="room" src="img/rooms/japanesegarden.png"/>
+        </div>
+      </div>
+      <div class="section section-left" id="about_UH">
+        <div class="left">
+          <br/>
+                  <h1>Meet the Team!</h1>
+                  <a class="clickable_button" id="register" href="https://uncommonhacks.com/">click here for more info</a>
+                  <br><br><br>
+          <section class="carousel" aria-label="carousel with product cards">
+            <p class="sr-only">This is a carousel with rotating cards. Use the previous and next buttons to navigate, and Enter to activate cards.</p>
+      
+            <!-- Previous button -->
+            <div class="arrow-wrapper previous-button-wrapper">
+              <button class="previous-button is-control">
+                <span class="fas fa-angle-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous cards</span>
+              </button>
             </div>
-          <!-- </span> -->
+      
+            <!-- Slide content -->
+            <div class="splide">
+              <div class="splide__track">
+                <div class="splide__list">
+
+                  <!-- Anton -->
+                  <div class="card splide__slide" role="group" aria-label="card 1 of 15">
+                    <div class="image">
+                      <img src="img/Serious Images/Anton.jpg" class="product-image" alt="">
+                    </div>
+                    <h2 class="title">Anton Outkine</h2>
+    
+                  <div class="content">
+                    <p>Team Lead<br>HX</p>
+                  </div>
+                </div>
+
+                  <!-- Renee -->
+                  <div class="card splide__slide" role="group" aria-label="card 2 of 15">
+                    <div class="image">
+                      <img src="img/Serious Images/Renee.jpg" class="product-image" alt="">
+                    </div>
+                    <h2 class="title">Renee Huang</h2>
+    
+                  <div class="content">
+                    <p>Team Lead<br>Sponsorship</p>
+                  </div>
+                </div>              
+  
+                
+                  <!-- Spencer -->
+                  <div class="card splide__slide" role="group" aria-label="card 3 of 15">
+                    <div class="image">
+                      <img src="img/Serious Images/Spencer.jpg" class="product-image" alt="">
+                    </div>
+                    <h2 class="title">Spencer Ng</h2>
+    
+                  <div class="content">
+                    <p>HX Lead</p>
+                  </div>
+                </div>
+
+                  <!-- Yiming -->
+                  <div class="card splide__slide" role="group" aria-label="card 4 of 15">
+                    <div class="image">
+                      <img src="img/Serious Images/Yiming.jpg" class="product-image" alt="">
+                    </div>
+                    <h2 class="title">Yiming Su</h2>
+    
+                  <div class="content">
+                    <p>HX</p>
+                  </div>
+                </div>
+
+                  <!-- Jack -->
+                  <div class="card splide__slide" role="group" aria-label="card 5 of 15">
+                    <div class="image">
+                      <img src="img/Serious Images/Jack.JPG" class="product-image" alt="">
+                    </div>
+                    <h2 class="title">Jack Rong</h2>
+    
+                  <div class="content">
+                    <p>HX</p>
+                  </div>
+                </div>              
+
+                <!-- Samantha -->
+                  <div class="card splide__slide" role="group" aria-label="card 6 of 15">
+                      <div class="image">
+                        <img src="img/Serious Images/Samantha.jpeg" class="product-image" alt="">
+                      </div>
+                      <h2 class="title">Samantha Chen</h2>
+      
+                    <div class="content">
+                      <p>Marketing Lead</p>
+                    </div>
+                  </div>
+                                  <!-- Emily -->
+                <div class="card splide__slide" role="group" aria-label="card 8 of 15">
+                  <div class="image">
+                    <img src="img/Serious Images/Emily.jpg" class="product-image" alt="">
+                  </div>
+                  <h2 class="title">Emily Bae</h2>
+
+                <div class="content">
+                  <p>Sponsorship Lead</p>
+                </div>
+              </div>       
+
+                <!-- IrinaL -->
+                <div class="card splide__slide" role="group" aria-label="card 7 of 15">
+                  <div class="image">
+                    <img src="img/Serious Images/IrinaL.jpeg" class="product-image" alt="">
+                  </div>
+                  <h2 class="title">Irina Lee</h2>
+
+                <div class="content">
+                  <p>Sponsorship</p>
+                </div>
+              </div>           
+              
+
+              
+                <!-- IrinaL -->
+                <div class="card splide__slide" role="group" aria-label="card 9 of 15">
+                  <div class="image">
+                    <img src="img/Serious Images/Jiayi.jpeg" class="product-image" alt="">
+                  </div>
+                  <h2 class="title">Irina Lee</h2>
+
+                <div class="content">
+                  <p>Sponsorship</p>
+                </div>
+              </div>    
+              
+                <!-- Nicole -->
+                <div class="card splide__slide" role="group" aria-label="card 10 of 15">
+                  <div class="image">
+                    <img src="img/Serious Images/Nicole.jpg" class="product-image" alt="">
+                  </div>
+                  <h2 class="title">Nicole Li</h2>
+
+                <div class="content">
+                  <p>Design Lead</p>
+                </div>
+              </div>  
+      
+                <!-- Kristin -->
+                <div class="card splide__slide" role="group" aria-label="card 11 of 15">
+                  <div class="image">
+                    <img src="img/Serious Images/Kristin.JPG" class="product-image" alt="">
+                  </div>
+                  <h2 class="title">Kristin Wu</h2>
+
+                <div class="content">
+                  <p>Design</p>
+                </div>
+              </div>    
+
+                <!-- IrinaS -->
+                <div class="card splide__slide" role="group" aria-label="card 12 of 15">
+                  <div class="image">
+                    <img src="img/Serious Images/IrinaS.jpg" class="product-image" alt="">
+                  </div>
+                  <h2 class="title">Irina Stamm</h2>
+
+                <div class="content">
+                  <p>Tech Lead</p>
+                </div>
+              </div>   
+              
+                  <!-- Nick -->
+                  <div class="card splide__slide" role="group" aria-label="card 13 of 15">
+                    <div class="image">
+                      <img src="img/Serious Images/Nick.jpg" class="product-image" alt="">
+                    </div>
+                    <h2 class="title">Nick Liu</h2>
+    
+                  <div class="content">
+                    <p>Tech</p>
+                  </div>
+                </div>
+              
+              <!-- Eric -->
+                  <div class="card splide__slide" role="group" aria-label="card 14 of 15">
+                    <div class="image">
+                      <img src="img/Serious Images/Eric.jpg" class="product-image" alt="">
+                    </div>
+                    <h2 class="title">Eric Chang</h2>
+    
+                  <div class="content">
+                    <p>Tech</p>
+                  </div>
+                </div>
+
+
+                  <!-- Hunter -->
+                <div class="card splide__slide" role="group" aria-label="card 15 of 15">
+                  <div class="image">
+                    <img src="img/Serious Images/Hunter.jpg" class="product-image" alt="">
+                  </div>
+                  <h2 class="title">Hunter Smith</h2>
+
+                <div class="content">
+                  <p>Tech</p>
+                </div>
+              </div>
+            </div>
+      
+            <!-- Next button -->
+            <div class="arrow-wrapper next-button-wrapper">
+              <button class="next-button is-control">
+                <span class="fas fa-angle-right" aria-hidden="true"></span>
+                <span class="sr-only">Next cards</span>
+              </button>
+            </div>
+          </section>
+        </div>
+        <div class="right nonintro" style="padding: 5%;"">
+          <br/>
+          <div class="title" >
+            ABOUT UNCOMMON HACKS
+          </div>
+          <div class="otherinfo">
+            <p style="font-size: 1.3em;">Uncommon Hacks is an RSO that organizes coding-related competitions on campus. 
+              Our main event is our 24-hour hackathon called Hacks, which happens during the first weekend of the 
+              Spring quarter. We love hacking together cool projects in our free time, 
+              and we can't wait to see what you create! 😁</p>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="section section-right" id="schedule">
-      <div class="right nonintro">
-        <div class="title">
-          SCHEDULE
-        </div>
-        <div class="otherinfo">
-          <span class="subinfo subnonintro"><strong>November 5th, 2022</strong></span>
-          <span class="subinfo subnonintro scheduleinfo">
-            12:00 check-in, opening ceremony
-            </br>
-            12:15 workshop: prototyping with Figma
-            </br>
-            12:15 workshop: dynamic websites with React
-            </br>
-            1:30 lunch
-            </br>
-            2:00-4:00 work time
-            </br>
-            3:00 talk with Google software engineer
-            </br>
-            4:00 judging, project showcase
-            </br>
-            4:45 closing ceremony and prize giveaway
-            </br>
-            5:00 dinner, talk with Microsoft project manager
-            </span>
-        </div>
-      </div>
-      <div class="left" id="garden">
-        <img class="room" src="img/rooms/japanesegarden.png"/>
-      </div>
-    </div>
-  </body>
-</html>
+    </body>
+  </html>
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <meta name="description" content="Pre-built code sample for an accessible carousel of linked product cards using Splide.">
+    <meta name="keywords" content="accessible, accessibility, WCAG, carousel, slider, Splide, cards, template, boilerplate">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Splide - linked product cards accessible boilerplate">
+    <meta property="og:description" content="Pre-built code sample for an accessible carousel of linked product cards using Splide.">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Splide - linked product cards accessible boilerplate">
+    <meta name="twitter:description" content="Pre-built code sample for an accessible carousel of linked product cards using Splide.">
+    <meta name="twitter:creator" content="Accessible_360">
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
