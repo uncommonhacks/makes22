@@ -209,6 +209,11 @@ a {
   #tagline {
     text-align: right;
   }
+
+  .text-gif{
+    width: 150%;
+    transform: translate(-25%, 0);
+  }
 }
 @media (max-width: 950px) {
   .section-left, .section-right {
@@ -258,6 +263,10 @@ a {
     text-align: center;
     font-size: 20px;
   }
+
+  .text-gif{
+    width: 100%;
+  }
 }
 @media (min-width: 550px) {
   #sponsor-jpm, #sponsor-morningstar {
@@ -300,6 +309,12 @@ a {
   float: right;
   margin-right: 5%;
 }
+
+.text-img{
+  width: 75%;
+}
+
+
 
  /**
       Setup for code demo only
