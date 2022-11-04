@@ -290,8 +290,6 @@ a {
   width: 100%;
   text-align: left;
   border: none;
-  outline-color: #5b556e;
-  outline-style: solid;
   transition: 0.4s;
   background-color: #716989;
   font-family: 'Laho';
@@ -300,16 +298,14 @@ a {
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active, .accordion:hover {
-  background-color: #423e50;
+  background-color: #a890ff;
   font-family: 'Laho';
   border-radius: 30px;
 }
 
 /* Style the accordion panel. Note: hidden by default */
 .panel {
-  background-color: #423e50;
-  outline-color: #5b556e;
-  outline-style: solid;
+  background-color: #5b4d8d;
   display: none;
   border-radius: 30px;
   overflow: hidden;
