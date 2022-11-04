@@ -40,7 +40,7 @@ a {
   max-height: 90vh;
 }
 .right {
-  font-family: fantasy;
+  font-family: 'Laho';
   font-weight: 300;
   text-align: right;
   grid-area: "content";
@@ -66,7 +66,7 @@ a {
   font-weight: 600;
   border-radius: 30px;
   cursor: pointer;
-  font-family: fantasy;
+  font-family: 'Laho';
 }
 .clickable_button:hover {
   background: white;
@@ -76,7 +76,7 @@ a {
   padding-right: 0em;
 }
 .title {
-  font-family: fantasy;
+  font-family: 'Laho';
 }
 #sponsors {
   text-align: center;
@@ -126,7 +126,7 @@ a {
   z-index:10000;
 }
 #tagline {
-  font-family: fantasy;
+  font-family: 'Laho';
   font-size: 30px;
   padding-bottom: 20px;
 }
@@ -148,7 +148,7 @@ a {
   margin-bottom: 40px;
 }
 #sponsor-us {
-  font-family: fantasy;
+  font-family: 'Laho';
   margin-top: 40px;
   margin-bottom: 40px;
   margin-left: auto;
@@ -294,14 +294,14 @@ a {
   outline-style: solid;
   transition: 0.4s;
   background-color: #716989;
-  font-family: fantasy;
+  font-family: 'Laho';
   border-radius: 30px;
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active, .accordion:hover {
   background-color: #423e50;
-  font-family: fantasy;
+  font-family: 'Laho';
   border-radius: 30px;
 }
 
@@ -333,7 +333,7 @@ a {
 
     body {
       margin: 10px;
-      font-family: Arial, Helvetica, sans-serif;
+      font-family: 'Laho';
     }
 
 
