@@ -73,7 +73,7 @@ a {
   color: #5ecad5  ;
 }
 .top_clickable_button_box{
-  padding-right: 0em;
+  height: 10vw;
 }
 .title {
   font-family: 'Laho';
@@ -160,20 +160,12 @@ a {
     padding-left: 16px;
   }
   #intro {
-    min-height: 100vh;
-    display: grid;
-    grid-template-areas:
-      "room content";
-    grid-template-columns: calc(90vw - 446px) calc(10vw + 446px);
+    text-align: center;
   }
   .right {
     display: flex;
     flex-direction: column;
     justify-content: center;
-  }
-  #intro .right {
-    padding-right: 6vw;
-    padding-left: 4vw;
   }
   #schedule .right {
     padding-left: 30px;
@@ -216,11 +208,15 @@ a {
   }
 
   .text-gif{
-    width: 150%;
-    transform: translate(-25%, 0);
+    max-width: 80%;
+    margin-left: 10wv;
   }
 }
 @media (max-width: 950px) {
+  .top_clickable_button_box{
+    padding-left: 1vw;
+    height: 10vh;
+    }
   .section-left, .section-right {
     display: grid;
     grid-template-areas:
@@ -270,7 +266,10 @@ a {
   }
 
   .text-gif{
-    width: 100%;
+    width: 80%;
+  }
+  #intro{
+    text-align: center;
   }
 }
 @media (min-width: 550px) {
