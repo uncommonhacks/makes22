@@ -61,7 +61,7 @@ a {
 .clickable_button {
   text-align: center;
   padding: max(1vw, 0.8rem) max(5vw, 2.5rem);
-  background: #F97C93;
+  background: #5ecad5  ;
   color: white;
   font-weight: 600;
   border-radius: 30px;
@@ -69,7 +69,10 @@ a {
 }
 .clickable_button:hover {
   background: white;
-  color: #F97C93;
+  color: #5ecad5  ;
+}
+.top_clickable_button_box{
+  padding-right: 0em;
 }
 .title {
   font-family: 'TruenoBold';
@@ -100,14 +103,14 @@ a {
   background-color: #3e3a4a;
 }
 #about_UH {
-  background-color: #244448;
+  background-color: #162a2c;
 }
 .faqq {
   font-weight: 600;
   padding-top: 30px;
 }
 #schedule {
-  background-color: #484848;
+  background-color: #00162b;
 }
 
 #mlh-trust-badge {
