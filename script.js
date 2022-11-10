@@ -1,3 +1,5 @@
+/* testing a push */ 
+
 let updateSticky = function () {
   if (window.innerWidth < 951) {
     let lefts = document.querySelectorAll(".left");
